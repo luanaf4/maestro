@@ -1,0 +1,33 @@
+appId: club.boxbox.android
+platform: Android
+tags:
+  - Welcome Page
+  - Android
+
+onFlowComplete:
+    - takeScreenshot: VerifyWelcomePage    # will be stored as a VerifyWelcomePage.png
+
+---
+
+ 
+#Opening the app
+- launchApp:
+    clearState: true
+    clearKeychain: true
+    permissions: { all: unset } 
+
+# Close initial modals
+- tapOn:
+    point: "81%,87%"
+- tapOn:
+    point: "81%,87%"
+- tapOn:
+    point: "81%,87%"
+- tapOn:
+    point: "81%,87%"
+- tapOn: "Get Started!"
+- assertVisible: "Sign in with Google"
+- tapOn: "Skip"
+
+
+

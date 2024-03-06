@@ -1,0 +1,11 @@
+appId: ${APP_ID}
+platform: ${PLATFORM}
+env:
+  appId: ${APP_ID}
+---
+
+#Load Elements of All Pages
+- runFlow: 
+    when: 
+      true: ${PLATFORM == 'Android'}
+    file: "load-general-elements.yaml"

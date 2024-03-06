@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="RXCW105GAXN" tests="2" failures="1" time="52">
+    <testcase id="Verify_Welcome_Page" name="Verify_Welcome_Page" classname="Verify_Welcome_Page" time="23" status="SUCCESS"/>
+    <testcase id="Verify_Home_Page" name="Verify_Home_Page" classname="Verify_Home_Page" time="29" status="ERROR">
+      <failure>Element not found: Text matching regex: Get Started!</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

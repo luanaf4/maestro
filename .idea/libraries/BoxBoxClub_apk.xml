@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BoxBoxClub.apk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/apps/BoxBoxClub.apk.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

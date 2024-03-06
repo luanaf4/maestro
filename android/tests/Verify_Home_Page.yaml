@@ -1,0 +1,28 @@
+appId: club.boxbox.android
+platform: Android ${PLATFORM}
+tags:
+  - Home Page
+  - Android
+
+onFlowComplete:
+    - takeScreenshot: VerifyHomePage    # will be stored as a VerifyWelcomePage.png
+
+---
+
+ 
+#Opening the app
+- launchApp:
+    clearState: true
+    clearKeychain: true
+    permissions: { all: unset } 
+
+
+# Initial modals
+- runFlow: "subflows-android/home-flows/[Android]CloseInitialModals.yaml"
+
+# Verify navbar icons
+- assertVisible: "Dashboard\nTab 1 of 5"
+- assertVisible: "Calendar\nTab 2 of 5"
+- assertVisible: "Cup\nTab 3 of 5"
+- assertVisible: "Notification\nTab 4 of 5"
+- assertVisible: "Profile\nTab 5 of 5"

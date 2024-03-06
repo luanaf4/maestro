@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="RQCT402QPAV" tests="39" failures="18" time="4045">
+    <testcase id="[Android] Verify Gift Card" name="[Android] Verify Gift Card" classname="[Android] Verify Gift Card" time="192"/>
+    <testcase id="[Android] Verify order Alcoholic beverages" name="[Android] Verify order Alcoholic beverages" classname="[Android] Verify order Alcoholic beverages" time="79">
+      <failure>No visible element found: id: com.outback.tampa.internal:id/carMakeEditText</failure>
+    </testcase>
+    <testcase id="[Android] Verify Menu page with a restaurant selected using Curbside as Handoff Method" name="[Android] Verify Menu page with a restaurant selected using Curbside as Handoff Method" classname="[Android] Verify Menu page with a restaurant selected using Curbside as Handoff Method" time="78"/>
+    <testcase id="[Android] Verify if user is able to complete a order with new credit card added and a gift card" name="[Android] Verify if user is able to complete a order with new credit card added and a gift card" classname="[Android] Verify if user is able to complete a order with new credit card added and a gift card" time="106">
+      <failure>Element not found: Id matching regex: com.outback.tampa.internal:id/optInCheckbox</failure>
+    </testcase>
+    <testcase id="[Android] Verify Order Details for Guest" name="[Android] Verify Order Details for Guest" classname="[Android] Verify Order Details for Guest" time="99">
+      <failure>Element not found: Id matching regex: com.outback.tampa.internal:id/optInCheckbox</failure>
+    </testcase>
+    <testcase id="[Android] Verify Rewards for Guests" name="[Android] Verify Rewards for Guests" classname="[Android] Verify Rewards for Guests" time="147"/>
+    <testcase id="[Android] Verify Remove Credit Card" name="[Android] Verify Remove Credit Card" classname="[Android] Verify Remove Credit Card" time="156"/>
+    <testcase id="[Android] Verify that the user can pay with Credit Card + Multiple Gift Cards" name="[Android] Verify that the user can pay with Credit Card + Multiple Gift Cards" classname="[Android] Verify that the user can pay with Credit Card + Multiple Gift Cards" time="210"/>
+    <testcase id="[Android] Verify Dine Rewards as Guest" name="[Android] Verify Dine Rewards as Guest" classname="[Android] Verify Dine Rewards as Guest" time="40">
+      <failure>Assertion is false: id: com.outback.tampa.internal:id/redeemBulletText is visible</failure>
+    </testcase>
+    <testcase id="[Android] Verify Order Summary with and without items in basket" name="[Android] Verify Order Summary with and without items in basket" classname="[Android] Verify Order Summary with and without items in basket" time="117">
+      <failure>Assertion is false: "CHOOSE YOUR AMOUNT" is visible</failure>
+    </testcase>
+    <testcase id="[Android] Verify entering an apartment on Delivery Search Address screen" name="[Android] Verify entering an apartment on Delivery Search Address screen" classname="[Android] Verify entering an apartment on Delivery Search Address screen" time="64">
+      <failure>Element not found: Id matching regex: com.outback.tampa.internal:id/text_input_end_icon</failure>
+    </testcase>
+    <testcase id="[Android] Verify Checkout screen for Curbside orders" name="[Android] Verify Checkout screen for Curbside orders" classname="[Android] Verify Checkout screen for Curbside orders" time="161"/>
+    <testcase id="[Android] Verify 0 dollars Tip" name="[Android] Verify 0 dollars Tip" classname="[Android] Verify 0 dollars Tip" time="179"/>
+    <testcase id="[Android] Verify Menu screen with a restaurant selected using Delivery as Handoff Method" name="[Android] Verify Menu screen with a restaurant selected using Delivery as Handoff Method" classname="[Android] Verify Menu screen with a restaurant selected using Delivery as Handoff Method" time="82"/>
+    <testcase id="[Android] Verify Locations and Notification prompt when opening app for 1st time" name="[Android] Verify Locations and Notification prompt when opening app for 1st time" classname="[Android] Verify Locations and Notification prompt when opening app for 1st time" time="12"/>
+    <testcase id="[Android] Verify contact info for Delivery" name="[Android] Verify contact info for Delivery" classname="[Android] Verify contact info for Delivery" time="133"/>
+    <testcase id="[Android] Verify Tip for Delivery as Guest" name="[Android] Verify Tip for Delivery as Guest" classname="[Android] Verify Tip for Delivery as Guest" time="154"/>
+    <testcase id="[Android] Verify Favorites and Recents as Guest" name="[Android] Verify Favorites and Recents as Guest" classname="[Android] Verify Favorites and Recents as Guest" time="36"/>
+    <testcase id="[Android] Verify Pickup orders as Guest" name="[Android] Verify Pickup orders as Guest" classname="[Android] Verify Pickup orders as Guest" time="75">
+      <failure>Assertion is false: "Pickup" is visible</failure>
+    </testcase>
+    <testcase id="[Android] Verify Get On The List For Guest" name="[Android] Verify Get On The List For Guest" classname="[Android] Verify Get On The List For Guest" time="43">
+      <failure>Element not found: Text matching regex: Order Now</failure>
+    </testcase>
+    <testcase id="[Android] Verify Customize It screen For GRILLED SHRIMP ON THE BARBIE" name="[Android] Verify Customize It screen For GRILLED SHRIMP ON THE BARBIE" classname="[Android] Verify Customize It screen For GRILLED SHRIMP ON THE BARBIE" time="76">
+      <failure>Assertion is false: "NUTRITION INFORMATION" is visible</failure>
+    </testcase>
+    <testcase id="[Android] Verify Checkout screen for Pickup orders" name="[Android] Verify Checkout screen for Pickup orders" classname="[Android] Verify Checkout screen for Pickup orders" time="76">
+      <failure>Assertion is false: "Pickup" is visible</failure>
+    </testcase>
+    <testcase id="[Android] Verify contact info for Curbside" name="[Android] Verify contact info for Curbside" classname="[Android] Verify contact info for Curbside" time="136"/>
+    <testcase id="[Android] Verify contact info for Pickup" name="[Android] Verify contact info for Pickup" classname="[Android] Verify contact info for Pickup" time="118"/>
+    <testcase id="[Android] Verify Curbside orders as Guest" name="[Android] Verify Curbside orders as Guest" classname="[Android] Verify Curbside orders as Guest" time="115">
+      <failure>Element not found: Id matching regex: com.outback.tampa.internal:id/optInCheckbox</failure>
+    </testcase>
+    <testcase id="[Android] Delivery Order for Guest" name="[Android] Delivery Order for Guest" classname="[Android] Delivery Order for Guest" time="99">
+      <failure>Element not found: Id matching regex: com.outback.tampa.internal:id/optInCheckbox</failure>
+    </testcase>
+    <testcase id="[Android] Verify schedule Curbside order" name="[Android] Verify schedule Curbside order" classname="[Android] Verify schedule Curbside order" time="119">
+      <failure>Element not found: Id matching regex: com.outback.tampa.internal:id/optInCheckbox</failure>
+    </testcase>
+    <testcase id="[Android] Verify Promo coupon" name="[Android] Verify Promo coupon" classname="[Android] Verify Promo coupon" time="178"/>
+    <testcase id="[Android] Verify Order tab navigation with pre-selected restaurant" name="[Android] Verify Order tab navigation with pre-selected restaurant" classname="[Android] Verify Order tab navigation with pre-selected restaurant" time="39"/>
+    <testcase id="[Android] Verify When user input incorrect address on location screen" name="[Android] Verify When user input incorrect address on location screen" classname="[Android] Verify When user input incorrect address on location screen" time="27"/>
+    <testcase id="[Android] Verify that the user can pay with newly added Credit card + Gift Card" name="[Android] Verify that the user can pay with newly added Credit card + Gift Card" classname="[Android] Verify that the user can pay with newly added Credit card + Gift Card" time="213">
+      <failure>No visible element found: id: com.outback.tampa.internal:id/enterGiftCard</failure>
+    </testcase>
+    <testcase id="[Android] Verify Checkout screen for Delivery orders" name="[Android] Verify Checkout screen for Delivery orders" classname="[Android] Verify Checkout screen for Delivery orders" time="106">
+      <failure>Element not found: Id matching regex: com.outback.tampa.internal:id/optInCheckbox</failure>
+    </testcase>
+    <testcase id="[Android] Verify Nutritional info" name="[Android] Verify Nutritional info" classname="[Android] Verify Nutritional info" time="70"/>
+    <testcase id="[Android] Change restaurant tests" name="[Android] Change restaurant tests" classname="[Android] Change restaurant tests" time="105"/>
+    <testcase id="[Android] Verify NavBar navigation" name="[Android] Verify NavBar navigation" classname="[Android] Verify NavBar navigation" time="29"/>
+    <testcase id="[Android] Verify Tip for Curbside as Guest" name="[Android] Verify Tip for Curbside as Guest" classname="[Android] Verify Tip for Curbside as Guest" time="168">
+      <failure>Element not found: Text matching regex: 1</failure>
+    </testcase>
+    <testcase id="[Android] Verify Locations Map View" name="[Android] Verify Locations Map View" classname="[Android] Verify Locations Map View" time="55">
+      <failure>Assertion is false: "Tue", id: com.outback.tampa.internalid/dayOfWeekTru is visible</failure>
+    </testcase>
+    <testcase id="[Android] Verify Schedule Delivery order" name="[Android] Verify Schedule Delivery order" classname="[Android] Verify Schedule Delivery order" time="110">
+      <failure>Element not found: Id matching regex: com.outback.tampa.internal:id/optInCheckbox</failure>
+    </testcase>
+    <testcase id="[Android] Verify Locations List View" name="[Android] Verify Locations List View" classname="[Android] Verify Locations List View" time="43"/>
+  </testsuite>
+</testsuites>

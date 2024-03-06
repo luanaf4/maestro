@@ -1,0 +1,19 @@
+appId: club.boxbox.android
+platform: Android
+
+---
+
+# Close initial modals
+- tapOn:
+    point: "81%,87%"
+- tapOn:
+    point: "81%,87%"
+- tapOn:
+    point: "81%,87%"
+- tapOn:
+    point: "81%,87%"
+- tapOn:
+    point: "82%,90%"
+- tapOn: "Get Started!"
+- assertVisible: "Sign in with Google"
+- tapOn: "Skip"
